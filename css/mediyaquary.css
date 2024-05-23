@@ -1,0 +1,39 @@
+@media (max-width:1245px) {
+    .hero-section .hero-right img {
+        width: 45rem;
+        height:45rem;
+        /* padding-right: 5rem; */
+    }
+    
+}
+
+@media (max-width:1045px) {
+
+    .hero-section .hero-right img {
+        width: 40rem;
+        height:40rem;
+        padding-right: 5rem;
+    }
+
+    .about-section .about-iteam .one-image img {
+        width: 40rem;
+    
+    }
+
+    .about-section .about-iteam .shoes-about p {
+        height: 28rem;
+        font-size: 1.2rem;
+    }
+
+    .login-section .background-img .left-image img {
+        width: 50rem;
+    }
+    
+}
+
+@media (max-width:870px){
+    
+    .login-section .background-img .left-image img {
+        width: 40rem;
+    }
+}
