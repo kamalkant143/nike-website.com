@@ -33,7 +33,21 @@
 
 @media (max-width:870px){
     
+
+
+    .about-section .about-iteam .one-image img {
+        width: 35rem;
+    }
+
+    .about-section .about-iteam .all-shoes-content .all-shoes .image-container img {
+        width: 8rem;
+    }
+
+    .review-secion .main-contanier {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
     .login-section .background-img .left-image img {
-        width: 40rem;
+        width: 35rem;
     }
 }
