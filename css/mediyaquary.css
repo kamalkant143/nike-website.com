@@ -9,10 +9,19 @@
 
 @media (max-width:1045px) {
 
+    .hero-section {
+        background-position: 100%;
+       
+    }
+
+    .hero-section .hero-left {
+        padding-left: 2rem;
+    }
+
     .hero-section .hero-right img {
         width: 40rem;
         height:40rem;
-        padding-right: 5rem;
+        padding-right: 7rem;
     }
 
     .about-section .about-iteam .one-image img {
@@ -28,6 +37,10 @@
     .login-section .background-img .left-image img {
         width: 40rem;
     }
+    
+}
+
+@media (max-width:1006px) {
     
 }
 

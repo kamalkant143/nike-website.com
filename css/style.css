@@ -302,19 +302,22 @@ a {
 
 .about-section .about-iteam  {
   display: flex;
-  justify-content: space-evenly;
-  align-items: center;
+  justify-content: space-between;
+  /* align-items: center; */
   /* flex-wrap: wrap; */
   margin-top: 3rem;
+}
+
+.about-section .about-iteam .wrapp{
+  width: 50%;
+
 }
 
 .about-section .about-iteam .all-shoes-content {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  width: 50%;
-
-
+  background-color: #eaea14;
 }
 
 .about-section .about-iteam .all-shoes-content .all-shoes {
@@ -345,9 +348,14 @@ a {
   opacity: 1;
 }
 
+.about-section .about-iteam .one-image{
+  width: 50rem;
+  /* background-color: #000000; */
+}
+
 .about-section .about-iteam .one-image img {
-  width: 40rem;
-  display: block;
+  width: 100%;
+  /* display: block; */
   padding: 1rem;
   border-radius: 1.5rem;
   border: 3px solid #6c14d0;
@@ -357,21 +365,30 @@ a {
 }
 
 .about-section .about-iteam .shoes-about{
+  display: flex;
+  align-items: center;
   width: 50%;
+padding-inline: 2rem;
 }
 
-.about-section .about-iteam .shoes-about p {
-  height: 30rem;
-  font-size: 1.3rem;
-  font-weight: 400;
-  margin: 0 3rem 0 8rem;
-  padding: 2rem;
+.about-section .about-iteam .shoes-about .wrapp-about{
   border-radius: 1.5rem;
   border: 3px solid #c72092;
   box-shadow: 0 0 6px #c72092;
+  padding: 2rem;
+
+}
+
+.about-section .about-iteam .shoes-about p {
+  font-size: 1.6rem;
+  font-weight: 400;
   color: #6c14d0;
   text-align: justify;
   overflow-y: auto;
+}
+
+.about-section .about-iteam .shoes-about p::-webkit-scrollbar{
+  display: none;
 }
 
 .about-section .btn {
