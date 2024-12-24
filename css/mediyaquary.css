@@ -1,99 +1,98 @@
-@media (max-width:1245px) {
-    .hero-section .hero-right img {
-        width: 45rem;
-        height:45rem;
-        /* padding-right: 5rem; */
-    }
-    
+@media (max-width: 1245px) {
+  .hero-section .hero-right img {
+    width: 45rem;
+    height: 45rem;
+    /* padding-right: 5rem; */
+  }
 }
 
-@media (max-width:1045px) {
+@media (max-width: 1045px) {
+  .hero-section {
+    background-position: 100%;
+  }
+
+  .hero-section .hero-left {
+    padding-left: 2rem;
+  }
+
+  .hero-section .hero-right img {
+    width: 40rem;
+    height: 40rem;
+    padding-right: 7rem;
+  }
+
+  .about-section .about-iteam {
+    flex-direction: column;
+    gap: 3rem;
+  }
+
+  .about-section .about-iteam .wrapp {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .about-section .about-iteam .one-image {
+    width: 100%;
+  }
+
+  .about-section .about-iteam .one-image img {
+    width: 60rem;
+  }
+
+  .about-section
+    .about-iteam
+    .all-shoes-content
+    .all-shoes
+    .image-container
+    img {
+    margin-left: 0rem;
+  }
+
+  .about-section .about-iteam .shoes-about {
+    width: 100%;
+  }
+
+  .about-section .about-iteam .shoes-about p {
+    height: 28rem;
+    font-size: 1.2rem;
+  }
+
+  .login-section .background-img .left-image img {
+    width: 40rem;
+  }
+}
+
+@media (max-width: 1012px) {
+  .product-section .box {
+    width: 100%;
+    padding-inline: 2rem;
+  }
+}
+
+@media (max-width: 870px) {
 
     .hero-section {
-        background-position: 100%;
-       
+        background-position: 80%;
     }
 
-    .hero-section .hero-left {
-        padding-left: 2rem;
-    }
+  .about-section .about-iteam .one-image img {
+    width: 35rem;
+  }
 
-    .hero-section .hero-right img {
-        width: 40rem;
-        height:40rem;
-        padding-right: 7rem;
-    }
+  .about-section
+    .about-iteam
+    .all-shoes-content
+    .all-shoes
+    .image-container
+    img {
+    width: 8rem;
+  }
 
-    .about-section .about-iteam  {
-       
-        flex-direction: column;
-        gap: 3rem;
+  .review-secion .main-contanier {
+    grid-template-columns: repeat(2, 1fr);
+  }
 
-      }
-
-      .about-section .about-iteam .wrapp {
-        width: 80%;
-        margin: 0 auto;
-
-    }
-
-
-      
-    .about-section .about-iteam .one-image {
-        width: 100%;
-    }
-
-    .about-section .about-iteam .one-image img {
-        width: 60rem;
-    
-    }
-
-    .about-section .about-iteam .all-shoes-content .all-shoes .image-container img {
-        margin-left: 0rem;
-       
-    }
-
-    .about-section .about-iteam .shoes-about {
-       
-        width: 100%;
-    }
-
-    .about-section .about-iteam .shoes-about p {
-        height: 28rem;
-        font-size: 1.2rem;
-    }
-
-    .login-section .background-img .left-image img {
-        width: 40rem;
-    }
-    
-}
-
-@media (max-width:1012px) {
-    .product-section .box {
-        width: 100%;
-        padding-inline: 2rem;
-       
-    }
-}
-
-@media (max-width:870px){
-    
-
-
-    .about-section .about-iteam .one-image img {
-        width: 35rem;
-    }
-
-    .about-section .about-iteam .all-shoes-content .all-shoes .image-container img {
-        width: 8rem;
-    }
-
-    .review-secion .main-contanier {
-        grid-template-columns: repeat(2, 1fr);
-    }
-
-    .login-section .background-img .left-image img {
-        width: 35rem;
-    }
+  .login-section .background-img .left-image img {
+    width: 35rem;
+  }
 }
