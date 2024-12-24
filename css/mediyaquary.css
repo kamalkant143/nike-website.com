@@ -24,14 +24,38 @@
         padding-right: 7rem;
     }
 
+    .about-section .about-iteam  {
+       
+        flex-direction: column;
+        gap: 3rem;
+
+      }
+
+      .about-section .about-iteam .wrapp {
+        width: 80%;
+        margin: 0 auto;
+
+    }
+
+
+      
+    .about-section .about-iteam .one-image {
+        width: 100%;
+    }
+
     .about-section .about-iteam .one-image img {
-        width: 40rem;
+        width: 60rem;
     
     }
 
     .about-section .about-iteam .all-shoes-content .all-shoes .image-container img {
         margin-left: 0rem;
        
+    }
+
+    .about-section .about-iteam .shoes-about {
+       
+        width: 100%;
     }
 
     .about-section .about-iteam .shoes-about p {
