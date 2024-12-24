@@ -29,6 +29,11 @@
     
     }
 
+    .about-section .about-iteam .all-shoes-content .all-shoes .image-container img {
+        margin-left: 0rem;
+       
+    }
+
     .about-section .about-iteam .shoes-about p {
         height: 28rem;
         font-size: 1.2rem;
@@ -40,8 +45,12 @@
     
 }
 
-@media (max-width:1006px) {
-    
+@media (max-width:1012px) {
+    .product-section .box {
+        width: 100%;
+        padding-inline: 2rem;
+       
+    }
 }
 
 @media (max-width:870px){
